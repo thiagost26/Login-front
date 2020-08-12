@@ -116,7 +116,8 @@ form {
   /* Quando clicar no botão, sumir com o form */
 
   .form-hide {
-    animation: down 500ms forwards;
+    animation: down 3.2s forwards;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
   @keyframes down {
